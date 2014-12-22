@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bd30aa65-367a-4fc6-a437-eff2a8588e8c" name="HX1401170@HX1401170 2014-12-19 09:14:20" runUser="JISHUBU\HX1401170" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="默认测试设置" id="a2c926b5-25a1-4dec-b0e1-a33f878534a5">
+    <Deployment runDeploymentRoot="HX1401170_HX1401170 2014-12-19 09_14_20">
+      <DeploymentItem filename="F:\project\TestInterfaceTool\packages\Autofac.3.5.2\lib\net40\Autofac.dll" />
+      <DeploymentItem filename="F:\project\TestInterfaceTool\TestInterfaceTool\bin\Debug\TestInterfaceTool.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-12-19T09:14:20.2667049+08:00" queuing="2014-12-19T09:14:21.4595856+08:00" start="2014-12-19T09:14:21.6005715+08:00" finish="2014-12-19T09:14:27.0790236+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="HX1401170" outcome="Error" timestamp="2014-12-19T09:14:26.9690346+08:00">
+        <Text>测试宿主进程意外退出。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetConfigSectionInfomationTest" storage="f:\project\testinterfacetool\interfacetooltest\bin\debug\interfacetooltest.dll" id="d3bff6b3-ea76-cad1-6c68-d41179004a94">
+      <Execution id="9098cf8d-69b6-4224-8f1c-dc17e451a0ed" />
+      <TestMethod codeBase="F:/project/TestInterfaceTool/InterfaceToolTest/bin/Debug/InterfaceToolTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InterfaceToolTest.ConfigHelpTest, InterfaceToolTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetConfigSectionInfomationTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d3bff6b3-ea76-cad1-6c68-d41179004a94" executionId="9098cf8d-69b6-4224-8f1c-dc17e451a0ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9098cf8d-69b6-4224-8f1c-dc17e451a0ed" testId="d3bff6b3-ea76-cad1-6c68-d41179004a94" testName="GetConfigSectionInfomationTest" computerName="HX1401170" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9098cf8d-69b6-4224-8f1c-dc17e451a0ed">
+    </UnitTestResult>
+  </Results>
+</TestRun>
